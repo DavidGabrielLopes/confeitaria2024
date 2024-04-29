@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner {
+    background-color: rgb(43, 157, 223);
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+.card-container {
+    display: flex; /* Torna os cards flexíveis */
+    justify-content: space-around; /* Alinha os cards horizontalmente com espaçamento uniforme */
+    align-items: center; /* Alinha os cards verticalmente */
+}
+
+.card {
+    width: 250px; /* Largura dos cards */
+    text-align: center; /* Centraliza o conteúdo dentro dos cards */
+    margin: 10px; /* Margem entre os cards */
+}
+
+.card img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do card */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.card h2 {
+    margin-top: 10px; /* Espaçamento superior para o nome do bolo */
+}
+
+.card p {
+    margin-top: 5px; /* Espaçamento superior para o preço */
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px; /* Espaço entre o banner e os cards */
+}
+
+.card {
+    width: 250px;
+    text-align: center;
+    margin: 0 10px; /* Espaço horizontal entre os cards */
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    margin-top: 10px;
+}
+
+.card p {
+    margin-top: 5px;
+}
+.cardapio{
+   display: flex;
+
+}
+.bolo-img{
+    width: 200px;
+    height: 200px;
+}
+.bolo-desc{
+    font-size: 1.7rem;
+    font-weight: bold;
+    
+}
